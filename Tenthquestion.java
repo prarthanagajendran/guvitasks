@@ -11,7 +11,7 @@ public class Tenthquestion {
 		   int num=myObj.nextInt();
 
 
-	        int n = num; // taking the copy of the number
+	        int n = num;      //counting the number of digits in integer
 	        int count = 0;
 	        
 	        while(n > 0){
@@ -19,7 +19,7 @@ public class Tenthquestion {
 	            count++;
 	        }
 	        
-	        System.out.println("Number of digits in "+num+" are "+count);
+	        System.out.println("Number of digits in the above number are:"+count);
 	        
 	    }
 	    
